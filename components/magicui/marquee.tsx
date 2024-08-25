@@ -1,5 +1,5 @@
-import { cn } from "../lib/utils"; // Adjust the path according to your project structure
-
+import React from 'react';
+import { cn } from '../../src/lib/utils';  // Adjust the path according to your project structure
 interface MarqueeProps {
   className?: string;
   reverse?: boolean;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Marquee from './Marquee'; // Import the Marquee component from the correct path
-import { cn } from "../lib/utils"; // Ensure this path is correct
+import { cn } from "../../src/lib/utils";
 
 const reviews = [
   {

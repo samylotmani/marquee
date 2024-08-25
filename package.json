@@ -1,11 +1,13 @@
 {
+  "homepage": "https://samylotmani.github.io/marquee",
   "name": "magic-ui-odoo",
   "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,8 +16,17 @@
   "description": "",
   "dependencies": {
     "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
     "magicui-cli": "^0.1.6",
     "postcss": "^8.4.41",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.5.2",
     "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.2"
   }
 }
